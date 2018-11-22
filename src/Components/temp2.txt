@@ -1,0 +1,15 @@
+import ProjectCard from './ProjectCard.js';
+
+
+<div>
+      <ProjectCard data={this.state.devData} />
+    </div>
+    <div className="skillHeader">
+      Data Science & Machine Learning
+    </div>
+    <div>
+      <ProjectCard data={this.state.dsmlData} />
+    </div>
+    <div className="instructors1">
+      Visit <a href="https:www.github.com/mdhrumil" target="_blank">Github</a> for more.
+    </div>

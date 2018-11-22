@@ -1,0 +1,71 @@
+body {
+font-family: Josefin Sans;
+}
+
+.container{
+  position: fixed;
+  overflow: hidden;
+  top:0; left:0; right:0; bottom:0;
+  height: 12%;
+  width: 100%;
+  background-color: #fff;
+  z-index:500;
+  box-shadow: 10px 10px 100000px grey;
+
+}
+
+.activeTab {
+}
+
+.title:hover {
+  color: #0000ff;
+}
+
+.name_header{
+background-color: #fff;
+font-family: 'Ubuntu', sans-serif;
+float: left;
+padding-left: 20px;
+font-size: 15px;
+color: #000;
+}
+
+.topnav {
+  float: right;
+}
+
+.topnav li {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 10px 10px;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+font-family: 'Krub', sans-serif;
+
+}
+
+.topnav a {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 0px 10px;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.topnav li:hover {
+  color: #0000ff;
+}
+
+.topnav a:hover {
+  color: #0000ff;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

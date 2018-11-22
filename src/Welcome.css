@@ -1,0 +1,38 @@
+.containerW{
+	position: absolute;
+	margin-top: 6%;
+	width: 100%;
+	color: #000;
+	z-index:1;
+}
+
+.welcomeTextWrapper{
+	text-align: center;
+		margin: auto;
+
+}
+
+.welcomeTextHeader{
+	opacity: 1;
+font-family: 'Pacifico', cursive;
+	font-weight: normal;
+	font-size: 45px;
+}
+
+.welcomeText{
+	text-align: center;
+	font-family: 'Krub', sans-serif;
+	opacity: 1;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.creator{
+	font-family: 'Pacifico', sans-serif;
+	vertical-align: bottom;
+	padding-right: 1%;
+	position: absolute;
+	left: 79%;
+	bottom: -65%;
+}
+
